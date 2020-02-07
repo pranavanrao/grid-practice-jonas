@@ -1,0 +1,38 @@
+.container {
+  background-color: #eee;
+  width: 1000px;
+  margin: 0 auto;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (150px)[2];
+      grid-template-rows: repeat(2, 150px);
+  -ms-grid-columns: (150px)[3];
+      grid-template-columns: repeat(3, 150px);
+  grid-gap: 30px;
+}
+
+.items--1 {
+  background-color: red;
+}
+
+.items--2 {
+  background-color: green;
+}
+
+.items--3 {
+  background-color: blue;
+}
+
+.items--4 {
+  background-color: orange;
+}
+
+.items--5 {
+  background-color: magenta;
+}
+
+.items--6 {
+  background-color: yellow;
+}
+/*# sourceMappingURL=main.css.map */
